@@ -25,3 +25,45 @@
 #container a {
   text-decoration: none;
 }
+
+.logo1{
+   width: 100px;
+   height: 80px;
+}
+
+:root {
+  --color-background: #f8fff7;
+  --color-black:#212121;
+  --color-textt:#4f4f4f;
+  --color-primary:#ffbf00;
+  --color-secondary:#fff2cc;
+  --color-white:#ffffff;
+  --color-red:#e74c3c;
+  --color-green:#2ecc71;
+  --color-separate:#cccccc;
+}
+
+.custom-background {
+  --background: linear-gradient(to bottom, #8a7317, #ff6600); /* Define um fundo gradiente */
+  color: white; /* Define a cor do texto para contrastar com o fundo */
+}
+
+.buttoncad {
+  bottom: 0;
+  right: 0;
+  margin: 10px; /* ajuste o espaçamento conforme necessário */
+}
+
+.imglogo{
+  position: relative;
+  width: 180px;
+}
+
+.container {
+  display: flex;
+  align-items:center; /* Centraliza verticalmente */
+  justify-content: center; /* Centraliza horizontalmente */
+  height: 100%; /* Ajusta a altura conforme necessário */
+  
+}
+
